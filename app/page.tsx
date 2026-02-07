@@ -67,14 +67,6 @@ export default async function Home() {
                 Get Started Free
               </SignUpButton>
             </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
-              className="h-12 rounded-full px-8 text-base"
-              asChild
-            >
-              <a href="#features">Learn More</a>
-            </Button>
           </div>
         </div>
       </section>
