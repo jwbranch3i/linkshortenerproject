@@ -62,7 +62,7 @@ export default async function Home() {
             Create branded short links, track engagement, and boost your marketing efforts.
           </p>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-            <Button size="lg" className="h-12 rounded-full px-8 text-base" asChild>
+            <Button size="lg" variant="outline" className="h-12 rounded-full px-8 text-base" asChild>
               <SignUpButton>
                 Get Started Free
               </SignUpButton>
@@ -116,7 +116,7 @@ export default async function Home() {
               Join thousands of users who trust us with their links. Start shortening for free today.
             </CardDescription>
             <div className="pt-4">
-              <Button size="lg" className="h-12 rounded-full px-8 text-base" asChild>
+              <Button size="lg" variant="outline" className="h-12 rounded-full px-8 text-base" asChild>
                 <SignUpButton>
                   Create Your Account
                 </SignUpButton>
